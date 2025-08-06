@@ -1,27 +1,16 @@
-// NAMA SAYA AKHDAN
-const prompt = require("prompt-sync")({ sigint: true });
-angka1 = (prompt('APAKAH ANDA YAKIN  : '));
-if (angka1 == 'ya') {
-    console.log(80.87);
-}
-else (false);
-angka2 = (prompt('APAKAH ANDA YAKIN  : '));
-if (angka2 == 'ya') {
-    console.log(8.97);
-}
-else (false);
+// soal no 4
 
-if
-    (angka1 == 'ya' && angka2 == 'ya') {
-    hasil = 80.87 + 8.97;
-}
-console.log(hasil);
+let angka1, angka2, hasil;
+angka1 = 80.87
+ angka2 = 8.97
+ 
+ console.log("Angka 1: " + angka1 );
+ console.log("Angka 2: " + angka2 );
+ console.log("Hasil Penjumlahan: " + (angka1 + angka2));
 
-if typeof document !== 'undefined') {
-    document.addEventListener("DOMContentLoaded", function() {
-        const outputDiv = document.getElementById("output");
-        outputDiv.innerHTML = `<p>Hasil: ${hasil}</p>`;
-    });
-} {
-    console.log("Output tidak dapat ditampilkan di HTML.");
-}
+ document.body.innerHTML = `
+<p>80.87 + 8.97 <br>
+Hasil: ${angka1 + angka2}</p>
+`; 
+
+
