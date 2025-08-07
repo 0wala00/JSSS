@@ -1,3 +1,6 @@
+//soal no 7
+// Akhdan X-PPLG-2
+
 let a , b, c, d, e, hasilTambah, hasilKurang, hasilKali, hasilBagi;
 a = 8.3
 b = "3.2";

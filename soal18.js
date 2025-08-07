@@ -1,3 +1,6 @@
+//soal no 18
+// Akhdan X-PPLG-2
+
 const prompt = require("prompt-sync")({ sigint: true });
 
 let angka1;
