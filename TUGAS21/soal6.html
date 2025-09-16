@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Soal 6</title>
+    </head>
+    <body>
+        <h1>Soal 6</h1>
+        <div id="output"></div>
+        <script>
+            let nama = prompt("Masukkan nama Anda:");
+            let ukuranSepatu = prompt("Masukan Ukuran Sepatu:");
+            let nilai = parseFloat(prompt("Masukan Nilai:"));
+            let kelulusan = (nilai >= 85) ? "true" : "false";
+
+            document.getElementById("output").innerHTML =
+                "Nama saya: " + nama + "<br>" +
+                "Ukuran Sepatu: " + ukuranSepatu + "<br>" +
+                "Nilai: " + nilai + "<br>" +
+                "Kelulusan: " + kelulusan;
+        </script>
+    </body>
+</html>
